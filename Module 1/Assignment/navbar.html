@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #nav {
+      /* width: 70%; */
+      height: 100px;
+      background-color: rgb(11, 12, 22);
+      display: flex;
+      align-items: center;
+    }
+    #navdiv {
+      margin: auto;
+    }
+    a {
+      color: white;
+      margin-left: 30px;
+      font-size: 24px;
+      text-decoration: none;
+    }
+    a:hover {
+      color: blue;
+    }
+    #navdiv > a:last-child {
+      color: blue;
+    }
+    #navdiv > a:last-child:hover {
+      color: red;
+    }
+    h2 {
+      color: rgb(8, 142, 250);
+      font-size: 40px;
+      display: inline;
+      font-style: bold;
+      margin-left: 30px;
+    }
+  </style>
+  <body>
+    <div>
+      <nav id="nav">
+        <h2>Be<span style="color: white; font-weight: 12">long</span></h2>
+        <div id="navdiv">
+          <a href="">Home</a>
+          <a href="">Web Design</a>
+          <a href="">WordPress</a>
+          <a href="">About us</a>
+          <a href="">beAdvice</a>
+          <a href="">BuyBeTheme</a>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>

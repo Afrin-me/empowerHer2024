@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase box</title>
+</head>
+<style>
+    #container{
+        width:500px ;
+        height:600px ;
+        border:3px solid grey;
+        padding:30px;
+        margin:10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 15px;
+        display: block;
+        align-items: center;
+    }
+    .img{
+        height:350px;
+    }
+    #logodiv{
+        display:flex;
+        margin: auto;
+        align-items: center;
+        margin-left: 10px;
+        gap: 25px;
+        font-size: 20px;
+    }
+    #price{
+        display: flex;
+        margin-top: 10px;
+        gap: 20px;
+        font-size: 25px;
+    }
+    .logo{
+        height: 50px;
+    }
+    #subcont{
+        width: 60%;
+        margin: auto;
+    }
+
+</style>
+<body>
+    <div id="container">
+        <div id="subcont">
+
+        
+        <div class="imgdiv">
+        <img class="img" src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/w/x/h/-original-imahfa7xspmxemvj.jpeg" alt="coffee image">
+        </div>
+        <div>
+        <h3 style="font-style:bold; font-size: 20px;">SAMSUNG Galaxy Watch6 LTE</h3>
+        <p style="color: grey;">Graphite strap, 44mm</p>
+        </div>
+        <div id="logodiv">
+            <button style="font-size:20px; background-color: green; color: white;">4.3⭐</button>
+            <span>(973)</span>
+            <img class="logo" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="Assured logo">
+        </div>
+        <div id="price">
+            <span>18,999</span>
+            <span style="text-decoration: line-through; color: grey;">41,999</span>
+            <span style="color: green;">54%</span>
+
+        </div>
+        <div>
+            <h3 style="color: green;">Bank Offer</h3>
+        </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- parent > child  -->
+ <style>
+     ul > li {
+        border: 1px solid black;
+        background-color: aqua;
+        padding: 20px;
+    }
+    ol > li{
+        background-color: blue;
+    }
+    h2 ~ p{
+        background-color:lightcoral;
+    }
+    h2 ~ p ~ span{
+        background-color: darkgreen;
+    }
+
+ </style>
+<body>
+    <div>
+    <ul>
+        <li>item 1</li>
+        <p>i am lis child</p>
+        <li>item 2</li>
+        <li>item 3</li>
+        <ul>
+            <li>item 3.1</li>
+            <li>item 3.2</li>
+        </ul>
+
+    </ul>
+    <ol>
+        <li>hello</li>
+        <li>hello</li>
+    </ol>
+
+
+    </div>
+
+    <!-- next siblibling  -->
+     <div>
+        <h2>heading</h2>
+        <p>hello uisauigg jkduiweu klsDpiID JCYESDb,wovd </p>
+
+        <h2>heading</h2>
+        <p>hello uisauigg jkduiweu klsDpiID JCYESDb,wovd </p>
+        <span>okay do it</span>
+        
+     </div>
+    
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Page</title>
+  </head>
+  <style>
+        #main {
+          background-color: rgb(155, 219, 215);
+          margin: auto;
+          width:50% ;
+        
+        }
+        #sub {
+          margin:auto
+        }
+        #h1 {
+          background-color: rgb(163, 159, 159);
+          color: blue;
+          width: 500px;
+          font-size: 40px;
+          border: 3px solid black;
+          padding: 5px;
+          text-align: center;
+          margin: auto;
+        }
+
+        #h2 {
+          width: 500px;
+          height: 50px;
+          color: green;
+          margin: auto;
+        }
+
+        h2 :hover {
+          font-family:bold;
+          background-color:rgb(243, 42, 72);
+        }
+        #imglogo {
+          width:400px;
+          border-radius: 50%;
+          margin-left: 40px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        #imgdiv {
+          width:70%;
+          height:400px;
+          margin: auto;
+        }
+        #table {
+          border: 1px solid black;
+          width:30%;
+          border-collapse:collapse;
+          text-align: center;
+          margin: auto;
+        }
+        #table > th{
+          border: 1px solid blue;
+
+        }
+        #table >td{
+          border: 1px solid blue;
+
+        }
+        .row:nth-child(1) {
+        background-color: #f9f9f9;
+
+        }
+        .row:nth-child(2) {
+        background-color: #e66b6b;
+
+        }
+
+        .btn {
+          background-color: darkgoldenrod;
+          margin-left:20px;
+          height:25px;
+          border-radius: 5px;
+        }
+        .btn:hover {
+          background-color: beige;
+        }
+        .btn1{
+          width:120px;
+          height:50px;
+          margin:auto;
+        }
+        #footer {
+          background-color: darkgrey;
+          text-align: center;
+          width: 300px;
+          height: 80px;
+          margin: auto;
+        }
+        #footer > div {
+          margin-top:-5%;
+          padding: 20px;
+          
+        }
+        #tag:hover {
+        background-color: rgb(233, 32, 196);
+    }
+    .row:nth-child(even) {
+        background-color: #ffffff; /* White for even rows */
+    }
+    #para{
+     width:30%;
+     margin: auto;
+    }
+    .form{
+   margin-left: 110px;
+    }
+    #nav{
+    margin: auto;
+    width:30%;
+    height:40px;
+    }
+    #navdiv{
+      margin: auto;
+    }
+    .formdiv{
+      width: 45%;
+      height: 80px;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <div id="main">
+      <div id="sub">
+        <div>
+        <header>
+          <h1 id="h1">Welcome to My Web Page</h1>
+
+          <h2 id="h2">
+            <a
+              id="tag"
+              style="font-family: bold; color: green; font-size: 28px"
+              href=""
+              >Learning Web Development</a
+            >
+          </h2>
+        </header>
+              </div>
+
+<div id="navdiv">
+        <nav id="nav">
+          <table>
+            <tr>
+              <td><a href="">Home</a></td>
+              <td></td>
+              <td><a href="">About</a></td>
+              <td><a href="">Contact</a></td>
+            </tr>
+          </table>
+        </nav>
+        </div>
+
+        <div id="imgdiv">
+          <img
+            id="imglogo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqi_nneOdSqi9rULc7uTfvSGsStwn_Xfc-bA&s"
+            alt="Welcom image"
+            width="400px"
+          />
+        </div>
+        <br /><br />
+
+        <div>
+          <table id="table">
+            <tr class="row">
+              <th>Services</th>
+              <th>price</th>
+            </tr>
+            <tr class="row">
+              <td>Cooking</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td>travel</td>
+              <td>550</td>
+            </tr>
+            <tr>
+              <td>painting</td>
+              <td>500</td>
+            </tr>
+          </table>
+        </div>
+        <br /><br />
+        <div class=" btn1">
+          <button class="btn">Learn More</button>
+        </div>
+        <div>
+          <p id="para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+          molestiae voluptas, repellat exercitationem veniam, incidunt ut
+          corrupti vitae voluptate provident maiores accusantium. Velit impedit
+          minus, veritatis numquam blanditiis dignissimos eos?
+        </p>
+        </div>
+        
+        <br />
+        <div class="formdiv">
+           <form class="form">
+          <input type="text" placeholder="enter your name" /><br>
+          <input type="email" placeholder="enter your email" /><br>
+          <button>Submit</button>
+        </form>
+        </div>
+       
+        <br />
+
+        <footer id="footer">
+          <div>&copy | developed by Afrin | All the rigths are reserved</div>
+        </footer>
+    </div>
+    </div>
+ 
+  
+  </body>
+</html>

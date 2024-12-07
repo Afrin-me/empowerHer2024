@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div {
+      display: inline-block;
+      vertical-align: center;
+    }
+    .headdiv {
+      width: 100%;
+      background-color: rgb(233, 232, 231);
+      padding-left: 100px;
+      margin: 0 auto;
+      height: 200px;
+    }
+    .left {
+      width: 10%;
+      background-color: rgb(219, 155, 205);
+      /* display: inline-block; */
+      margin-left: 2%;
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+    }
+    .mid {
+      width: 15%;
+      background-color: rgb(225, 142, 199);
+      display: inline-block;
+      margin-left: 10%;
+      padding-bottom: 100px 20px;
+      border-radius: 40px;
+      text-align: center;
+      padding: 20px;
+    }
+    .right {
+      width: 10%;
+      background-color: chocolate;
+      display: inline-block;
+      margin-left: 8%;
+      border-radius: 15px;
+      text-align: center;
+      padding: 20px;
+    }
+    .right > a {
+      font-size: 12px;
+      margin: 15px;
+    }
+  </style>
+  <body>
+    <div class="headdiv">
+      <header>
+        <div class="left">
+          <!-- logo -->
+          Zomato
+        </div>
+        <div class="mid">
+          <!-- searchbar -->
+          Mumbai
+        </div>
+
+        <div class="mid">
+          <input type="text" placeholder="search for your cuisine" />
+        </div>
+        <div class="right">
+          <!-- login -->
+          <a href="#">Login</a>
+          <a href="#">sign Up</a>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>

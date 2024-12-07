@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+    #main{
+        width:300px;
+        height:380px;
+        border:1px solid darkgrey;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #sub{
+        width: 236px;
+        height: 45px;
+        border-radius:12px;
+        margin: auto;
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #cont{
+        
+        border-radius:12px;
+        gap:10px;
+        display: grid;
+        grid-template-columns:repeat(4, 45px);
+        grid-template-rows:repeat(4, 45px);
+        margin-top: 30px;
+        justify-content:center;
+        align-content: center;
+
+    }
+    
+    
+    .item{
+        display: grid;
+        border:1px solid darkgrey;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        color:black;
+        place-items: center;
+        border-radius:6px;
+        font-style: bold;
+       
+        
+        
+
+}
+.items{
+background-color: black;
+color: white;
+ display: grid;
+ place-items:center;
+border-radius:6px;
+
+}
+.item1{
+background-color:red;
+color: white;
+ display: grid;
+ place-items:center;        
+ border-radius:6px;
+
+}
+h1{
+    font-family:"Open Sans" ;
+    color: rgb(1,128,128);
+    text-align: center;
+}
+
+</style>
+<body>
+    <h1>Masai Calculator</h1>
+    <div id="main">
+        <div id="sub"></div>
+        <div id="cont">
+            
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="items">+</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="items">-</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="items">x</div>
+    <div class="item1">C</div>
+    <div class="item">0</div>
+    <div class="items">=</div>
+    <div class="items">/</div>
+    
+         </div>
+    </div>
+    
+</body>
+</html>

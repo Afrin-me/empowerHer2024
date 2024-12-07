@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule Using Grid</title>
+</head>
+<style>
+    #container{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap:10px;
+            width: 90%;
+            margin: auto;
+            
+
+    
+}
+.child{
+    height: 40px;
+    border:1px solid blue;
+    border-radius: 20px;
+    display: grid;
+    justify-content:center;
+    align-content: center;
+    
+}
+.child:nth-child(odd){
+    background-color: rgb(250,236,170);
+
+}
+.child:nth-child(even){
+   background-color: rgb(255,214,239); 
+}
+.child:nth-child(6n+1){
+    background-color: rgb(188,238,242);
+}
+.child:nth-child(1){
+  visibility: hidden;
+}
+.child:last-child{
+   grid-column: 1/7;
+   justify-content:start;
+   padding:5px;
+
+}
+h1{
+  color:rgb(33, 25, 27);
+  font-style: italic;
+  text-align: center;
+}
+
+
+</style>
+<body>
+  <h1>Weekly Schedule</h1>
+    <div id="container">
+        <div class="child">empty</div>
+        <div class="child">Mon</div>
+        <div class="child">Tues</div>
+        <div class="child">Wed</div>
+        <div class="child">Thurs</div>
+        <div class="child">Fri</div>
+        <!-- hrs 2 -->
+        <div class="child">08:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs 3 -->
+         <div class="child">09:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs 4-->
+          <div class="child">10:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs 5-->
+          <div class="child">11:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs6 -->
+          <div class="child">12:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs 7-->
+        <div class="child">13:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs 8 -->
+          <div class="child">14:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs 9 -->
+        <div class="child">15:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs -->
+          <div class="child">16:00</div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <!-- hrs -->
+         <div class="child">Note:</div>
+
+    </div>
+    
+</body>
+</html>
